@@ -1,0 +1,85 @@
+Dataset.file_meta -------------------------------
+(0002, 0000) File Meta Information Group Length  UL: 200
+(0002, 0001) File Meta Information Version       OB: b'\x00\x01'
+(0002, 0002) Media Storage SOP Class UID         UI: CT Image Storage
+(0002, 0003) Media Storage SOP Instance UID      UI: 1.2.276.0.7230010.3.1.4.296485376.1.1521713566.1845227
+(0002, 0010) Transfer Syntax UID                 UI: JPEG 2000 Image Compression (Lossless Only)
+(0002, 0012) Implementation Class UID            UI: 1.2.276.0.7230010.3.0.3.6.2
+(0002, 0013) Implementation Version Name         SH: 'OFFIS_DCMTK_362'
+-------------------------------------------------
+(0008, 0005) Specific Character Set              CS: 'ISO_IR 100'
+(0008, 0008) Image Type                          CS: ['ORIGINAL', 'PRIMARY', 'AXIAL']
+(0008, 0012) Instance Creation Date              DA: ''
+(0008, 0013) Instance Creation Time              TM: ''
+(0008, 0016) SOP Class UID                       UI: CT Image Storage
+(0008, 0018) SOP Instance UID                    UI: 1.2.276.0.7230010.3.1.4.296485376.1.1521713566.1845227
+(0008, 0020) Study Date                          DA: ''
+(0008, 0023) Content Date                        DA: ''
+(0008, 0030) Study Time                          TM: ''
+(0008, 0033) Content Time                        TM: ''
+(0008, 0050) Accession Number                    SH: ''
+(0008, 0060) Modality                            CS: 'CT'
+(0008, 0070) Manufacturer                        LO: ''
+(0008, 0090) Referring Physician's Name          PN: ''
+(0008, 103e) Series Description                  LO: '0.625mm'
+(0008, 1090) Manufacturer's Model Name           LO: ''
+(0008, 9215)  Derivation Code Sequence  1 item(s) ---- 
+   (0008, 0100) Code Value                          SH: '121327'
+   (0008, 0102) Coding Scheme Designator            SH: 'DCM'
+   (0008, 0104) Code Meaning                        LO: 'Full fidelity image'
+   ---------
+(0010, 0010) Patient's Name                      PN: 'CQ500-CT-181'
+(0010, 0020) Patient ID                          LO: 'CQ500-CT-181'
+(0010, 0030) Patient's Birth Date                DA: ''
+(0010, 0040) Patient's Sex                       CS: ''
+(0012, 0062) Patient Identity Removed            CS: 'YES'
+(0018, 0022) Scan Options                        CS: 'AXIAL MODE'
+(0018, 0050) Slice Thickness                     DS: '0.625'
+(0018, 0060) KVP                                 DS: '120.0'
+(0018, 0088) Spacing Between Slices              DS: '21.284'
+(0018, 0090) Data Collection Diameter            DS: '320.0'
+(0018, 1020) Software Versions                   LO: 'gmp_vct.42'
+(0018, 1100) Reconstruction Diameter             DS: '250.0'
+(0018, 1110) Distance Source to Detector         DS: '949.147'
+(0018, 1111) Distance Source to Patient          DS: '541.0'
+(0018, 1120) Gantry/Detector Tilt                DS: '20.0'
+(0018, 1130) Table Height                        DS: '134.0'
+(0018, 1140) Rotation Direction                  CS: 'CW'
+(0018, 1150) Exposure Time                       IS: '2000'
+(0018, 1151) X-Ray Tube Current                  IS: '193'
+(0018, 1152) Exposure                            IS: '12'
+(0018, 1160) Filter Type                         SH: 'MEDIUM FILTER'
+(0018, 1170) Generator Power                     IS: '42000'
+(0018, 1190) Focal Spot(s)                       DS: '1.2'
+(0018, 1210) Convolution Kernel                  SH: 'SOFT'
+(0018, 5100) Patient Position                    CS: 'HFS'
+(0018, 9305) Revolution Time                     FD: 2.0
+(0018, 9306) Single Collimation Width            FD: 0.625
+(0018, 9307) Total Collimation Width             FD: 20.0
+(0020, 000d) Study Instance UID                  UI: 1.2.276.0.7230010.3.1.2.296485376.1.1521713566.1845225
+(0020, 000e) Series Instance UID                 UI: 1.2.276.0.7230010.3.1.3.296485376.1.1521713566.1845226
+(0020, 0010) Study ID                            SH: ''
+(0020, 0011) Series Number                       IS: '4'
+(0020, 0012) Acquisition Number                  IS: '8'
+(0020, 0013) Instance Number                     IS: '256'
+(0020, 0032) Image Position (Patient)            DS: [-125.000, -128.362, 168.249]
+(0020, 0037) Image Orientation (Patient)         DS: [1.000000, 0.000000, 0.000000, 0.000000, 0.939693, -0.342020]
+(0020, 1040) Position Reference Indicator        LO: 'OM'
+(0020, 1041) Slice Location                      DS: '121.529'
+(0028, 0002) Samples per Pixel                   US: 1
+(0028, 0004) Photometric Interpretation          CS: 'MONOCHROME2'
+(0028, 0010) Rows                                US: 512
+(0028, 0011) Columns                             US: 512
+(0028, 0030) Pixel Spacing                       DS: [0.488281, 0.488281]
+(0028, 0100) Bits Allocated                      US: 16
+(0028, 0101) Bits Stored                         US: 16
+(0028, 0102) High Bit                            US: 15
+(0028, 0103) Pixel Representation                US: 1
+(0028, 0120) Pixel Padding Value                 SS: -2000
+(0028, 1050) Window Center                       DS: '350.0'
+(0028, 1051) Window Width                        DS: '2000.0'
+(0028, 1052) Rescale Intercept                   DS: '-1024.0'
+(0028, 1053) Rescale Slope                       DS: '1.0'
+(0028, 1054) Rescale Type                        LO: 'HU'
+(0040, 0009) Scheduled Procedure Step ID         SH: 'ANON'
+(7fe0, 0010) Pixel Data                          OB: Array of 87840 elements
